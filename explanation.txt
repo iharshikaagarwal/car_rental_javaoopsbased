@@ -1,0 +1,41 @@
+This code implements a simple car rental system in Java using object-oriented
+ programming principles. Let's break down the code into its main components:
+
+1. **Car Class**:
+   - Represents a car with attributes such as car ID, brand, model, base price per day, and availability.
+   - Provides methods to get car details, calculate rental price, check availability, rent, and return the car.
+
+2. **Customer Class**:
+   - Represents a customer with attributes like customer ID and name.
+   - Provides methods to get customer details.
+
+3. **Rental Class**:
+   - Represents a rental transaction between a car and a customer for a specific number of days.
+   - Stores information about the car, customer, and rental duration.
+
+4. **CarRentalSystem Class**:
+   - Manages the car rental system including cars, customers, and rentals.
+   - Provides methods to add cars and customers, rent and return cars, and a menu for user interaction.
+
+Let's explain the major methods and functionalities:
+
+- **CarRentalSystem()**: Constructor initializes lists for cars, customers, and rentals.
+
+- **addCar(Car car)**: Adds a new car to the system.
+
+- **addCustomer(Customer customer)**: Adds a new customer to the system.
+
+- **rentCar(Car car, Customer customer, int days)**: Allows a customer to rent a car for a specified
+ number of days if the car is available.
+
+- **returnCar(Car car)**: Marks a car as returned and removes the corresponding rental record.
+
+- **menu()**: Provides a menu-driven interface for users to interact with the system. Users can choose
+to rent a car, return a car, or exit the system.
+
+- **main()**: Creates a CarRentalSystem object and initializes it with some sample cars. It then starts
+ the menu to interact with the rental system.
+
+Overall, this code demonstrates the basic concepts of object-oriented programming in Java, including
+classes, objects, constructors, encapsulation, and method usage. It simulates a simple car
+rental system where users can rent and return cars based on availability and manage customer records.
